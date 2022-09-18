@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import torta from "../../Img/torta.png";
 import './Home.css';
 
-export default () => {
+function Home() {
   return (
     <Container className="text-center form-cont-home">
       <h2 className="pt-5">
@@ -15,3 +15,5 @@ export default () => {
     </Container>
   );
 };
+
+export default Home;
